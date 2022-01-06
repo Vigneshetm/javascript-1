@@ -1,0 +1,128 @@
+.navbar-1 {
+    background: #999999;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-1 .navbar .navbar-brand {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px;
+}
+
+.navbar-1 .navbar .navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-1 .navbar-expand-lg .navbar-nav {
+    margin: 0;
+    margin-right: auto !important;
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar-1 .navbar-expand-lg .navbar-nav {
+        margin-left: 35px;
+    }
+}
+
+.navbar-1 .navbar-expand-lg .navbar-nav .nav-item {
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+.navbar-1 .navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-1 .navbar-dark .navbar-toggler .menu-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 18px;
+    color: #fff;
+}
+
+.hero-3 {
+    position: relative;
+    padding: 112px 0 120px 0;
+    background: #444;
+}
+
+.hero-3 .hero-img {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-3 .hero-img img {
+    width: 100%;
+}
+
+.hero-3 .hero-content {
+    border-radius: 0;
+    position: relative;
+    /* z-index: 1; */
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .hero-3 .hero-content {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-3 {
+        padding: 150px 0 60px 0;
+    }
+}
+
+.hero-3 .hero-content h1 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #fff;
+}
+
+.hero-3 .hero-content p {
+    margin-top: 30px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.hero-3 .hero-content .hero-btn-group {
+    margin-top: 40px;
+}
+
+.hero-3 .hero-content .hero-btn-group i {
+    margin-right: 5px;
+}
+
+.hero-3 .hero-content .hero-btn-group .download-btn {
+    background-color: #fff;
+    color: #444;
+    margin-right: 12px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 30px;
+    transition: 0.2s;
+    border-radius: 5px;
+    position: relative;
+    /* z-index: 1; */
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero-3 .hero-content .hero-btn-group .download-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
